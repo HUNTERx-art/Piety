@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "name": "Piety",
+    "slug": "react_proj",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "01a07ade-f23f-4981-a9bb-dc4c77db9b00"
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "SCHEDULE_EXACT_ALARM",
+        "POST_NOTIFICATIONS"
+      ],
+      "package": "com.hemocs.react_proj",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDZt-BIQhncekDBx8NZdZF7z1AZsGIwGRA"
+        }
+      }
+    },
+    "splash": {
+      "image": "./assets/placeholder.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
